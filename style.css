@@ -270,13 +270,13 @@ a {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  width: 400px;
+  width: 500px;
   flex-grow: 0;
 }
 
 .body .contents .videos .related-videos .related-video {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 45% 55%;
   gap: 0.5em;
 }
 
