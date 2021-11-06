@@ -31,9 +31,16 @@ a {
 }
 
 .top-menu .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   font-weight: bold;
   height: 1.3rem;
   fill: #eeeeee;
+}
+
+.menu-btn svg {
+  height: 2rem;
 }
 
 .top-menu .search form {
