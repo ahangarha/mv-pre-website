@@ -173,6 +173,98 @@ a {
 .body .contents .videos .main-video iframe {
   width: 100%;
 }
+.main-video .video-info .details {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #333;
+}
+.main-video .video-info .details .meta {
+  color: #777;
+}
+.main-video .video-info .details .interact {
+  display: flex;
+  gap: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main-video .channel-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #333;
+}
+.main-video .channel-info .channel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+.main-video .channel-info .channel img {
+  width: 50px;
+  border-radius: 50%;
+}
+.main-video .channel-info .channel .info h4 {
+  margin: 0;
+  margin-bottom: 0.25em;
+}
+.main-video .channel-info .channel .info span {
+  color: #777;
+  font-size: 0.85em;
+}
+
+.main-video .channel-info .subscribe {
+  color: #eeeeee;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #cc0000;
+  padding: 0.8em 1em;
+}
+
+.main-video .comments-wrapper > .header {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.main-video .comments-wrapper .comments {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 100%;
+}
+.comments .comment {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  font-size: 0.85em;
+}
+.comments .comment img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.comments .comment .detail .header {
+  display: flex;
+  gap: 0.5em;
+}
+.comments .comment .detail .header .user {
+  font-weight: bold;
+}
+.comments .comment .detail .header .date {
+  color: #777;
+}
+.comments .comment .detail .interact {
+  display: flex;
+  gap: 1em;
+}
+.comments .comment .detail .interact a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 .body .contents .videos .related-videos {
   display: flex;
