@@ -4,9 +4,17 @@
 body {
   padding: 0;
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Roboto", "Arial", sans-serif;
   background-color: #111111;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+svg {
+  max-height: 2em;
+  fill: white;
 }
 
 .top-menu {
@@ -56,11 +64,6 @@ body {
   gap: 1rem;
 }
 
-.top-menu .access svg {
-  max-height: 1.6rem;
-  fill: white;
-}
-
 .top-menu .access .login {
   display: flex;
   justify-content: center;
@@ -79,4 +82,37 @@ body {
 }
 .top-menu .access .login svg {
   fill: #3da4fc;
+}
+
+.body {
+  display: flex;
+  flex-grow: 1;
+  min-height: 100%;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #171717;
+  width: 220px;
+}
+.sidebar .links-wrapper {
+  list-style: none;
+  border-bottom: 1px solid #333333;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  padding-bottom: 0.5rem;
+}
+
+.sidebar .links-wrapper li a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1em;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.sidebar .links-wrapper li a:hover {
+  background-color: #333333;
 }
