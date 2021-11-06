@@ -1,5 +1,5 @@
 * {
-  color: white;
+  color: #eeeeee;
 }
 body {
   padding: 0;
@@ -14,7 +14,11 @@ body {
 
 svg {
   max-height: 2em;
-  fill: white;
+  fill: #eeeeee;
+}
+
+a {
+  text-decoration: none;
 }
 
 .top-menu {
@@ -29,7 +33,7 @@ svg {
 .top-menu .logo {
   font-weight: bold;
   height: 1.3rem;
-  fill: white;
+  fill: #eeeeee;
 }
 
 .top-menu .search form {
@@ -49,7 +53,7 @@ svg {
   justify-content: center;
   align-items: center;
   background-color: #333333;
-  fill: white;
+  fill: #eeeeee;
   padding: 0 1rem;
   flex-shrink: 0;
 }
@@ -115,4 +119,36 @@ svg {
 
 .sidebar .links-wrapper li a:hover {
   background-color: #333333;
+}
+
+.body .contents {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.body .contents .tag-bar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1em;
+  background-color: #171717;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+.body .contents .tag-bar a {
+  background-color: #333333;
+  border: 1px solid #555;
+  padding: 0.4em 1em;
+  border-radius: 2em;
+  white-space: nowrap;
+}
+.body .contents .tag-bar a:hover {
+  background-color: #444;
+}
+.body .contents .tag-bar a.active {
+  background-color: #eeeeee;
+  color: #333333;
+  border: none;
 }
