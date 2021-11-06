@@ -11,9 +11,11 @@ body {
 
 .top-menu {
   display: flex;
+  gap: 1rem;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 2rem;
+  background-color: #171717;
 }
 
 .top-menu .logo {
@@ -31,6 +33,7 @@ body {
   border: 1px solid #333333;
   padding: 0.5rem;
   font-size: 1.2rem;
+  width: 100%;
 }
 
 .top-menu .search form a {
@@ -40,6 +43,7 @@ body {
   background-color: #333333;
   fill: white;
   padding: 0 1rem;
+  flex-shrink: 0;
 }
 .top-menu .search form a svg {
   max-height: 1.6rem;
