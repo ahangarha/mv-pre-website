@@ -1,0 +1,78 @@
+* {
+  color: white;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: #111111;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+
+.top-menu .logo {
+  font-weight: bold;
+  height: 1.3rem;
+  fill: white;
+}
+
+.top-menu .search form {
+  display: flex;
+}
+
+.top-menu .search form #search {
+  background-color: #111111;
+  border: 1px solid #333333;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.top-menu .search form a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  fill: white;
+  padding: 0 1rem;
+}
+.top-menu .search form a svg {
+  max-height: 1.6rem;
+}
+
+.top-menu .access {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.top-menu .access svg {
+  max-height: 1.6rem;
+  fill: white;
+}
+
+.top-menu .access .login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  border: 1px solid #3da4fc;
+  border-radius: 2px;
+  color: #3da4fc;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  white-space: nowrap;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.top-menu .access .login svg {
+  fill: #3da4fc;
+}
